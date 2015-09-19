@@ -1,1 +1,140 @@
 git@github.com:balkrishancdn/DemoGITCDN.git
+
+
+
+	It's repository hosting services. Which distribute revision control and source code management.
+
+	The purpose of Git is to manage a project, or a set of files, as they change over time. 
+
+	Git stores this information in a data structure called a repository. 
+
+	A git repository contains, among other things, the following: A set of commit objects.
+
+
+
+Git Installation:-
+  In Ubuntu
+ sudo apt-get update
+ sudo apt-get install git
+For More Instruction visit site:-http://git-scm.com/download/linux. 
+
+ In Mac
+  For mac-os 10.9 and above installation by dmg(setup) download and install from:-	http://git-scm.com/download/mac.
+
+
+
+
+User Setting by terminal
+
+		Set Global User:-
+	git config --global user.name "YOUR NAME"
+	git config --global user.email "YOUR Email Address"
+	Check Global User:-
+ 		git config user.name
+	 	git config user.email
+	UnSet Global User
+ 		git config --global --unset-all
+
+
+
+git init
+
+git add *
+git add --all
+git commit -am "<commit message>"
+git push
+
+
+mkdir ~/Hello-World
+
+cd ~/Hello-World
+
+git init
+
+touch README
+
+git add README
+
+git commit -m 'first commit'
+
+git remote add origin https://github.com/username/Hello-World.git
+
+git push origin master
+
+git merge master
+
+1 .  git merge master -> Git merge master to current branch
+
+2 .  git checkout Two -> change current branch to Two branch
+
+3. git branch  -> Shown Current branch
+
+4. git pull origin master -> pull from master to two branch  and then check out from two to current folder.git 
+
+5. git log
+
+6.git commit
+
+7. git clone 
+
+8.  git reset --hard(discard local changes)
+
+9. git merge -s recursive -X theirs origin dev
+
+10. git fetch origin dev
+
+11. gi diff
+
+12. git display-conflict
+
+13. rm -rf .DS_Store
+
+14. git config --list
+
+15 git checkout -b <gibranch>
+
+
+
+Git Commands:-
+
+1 .  git merge master -> Git merge master to current branch
+
+2 .  git checkout Two -> change current branch to Two branch
+
+3. git branch  -> Shown Current branch
+
+4. git pull origin master -> pull from master to two branch  and then check out from two to current folder.git 
+
+5. git log
+
+6.git commit
+
+7. git clone 
+
+8.git config --global --unset user.name
+git config --global --unset user.email
+
+(or all your global settings:
+
+git config --global --unset-all
+
+
+9. git reset --hard(discard local changes)
+
+10 git merge -s recursive -X theirs origin dev
+
+
+
+
+
+1. First add and commit to your feature branch
+2. Go to dev branch and take a pull (to get latest changes on dev if any)
+3. Then again go to feature branch
+4. Then merge dev in to your feature branch (to see if there are any conflicts) 
+6. IF NOT or CONFLICTS HAS BEEN RESOLVED THEN : Add and commit again to feature branch
+7. Then go to dev branch
+8. Then take a pull on dev branch again (to get latest changes on dev if any)
+9. Then merge your feature branch in to dev branch
+10 Then add/commit and push your changes on dev branch
+
+
