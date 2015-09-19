@@ -138,3 +138,16 @@ git config --global --unset-all
 10 Then add/commit and push your changes on dev branch
 
 
+
+=========================
+Create SSH Key
+
+
+ssh-keygen -t rsa 
+cdn44s-Mac-mini:.ssh balkrishanyadav$ pwd
+/Users/balkrishanyadav/.ssh
+cdn44s-Mac-mini:.ssh balkrishanyadav$ vim id_rsa.pub 
+cdn44s-Mac-mini:.ssh balkrishanyadav$ 
+escape q ! /wq enter
+
+
