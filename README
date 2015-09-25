@@ -141,6 +141,20 @@ git fetch <remote> -p      # Shorter
 
 
 
+->Remove/Delete Git
+
+git rm -r one-of-the-directories
+git commit -m "Remove duplicated directory"
+git push origin master
+
+->Remove directory from git but NOT local
+
+git rm -r --cached myFolder
+
+
+
+
+
 
 
 1. First add and commit to your feature branch
